@@ -16,7 +16,7 @@ module.exports = class InviteMeCommand extends Command {
     const embed = new MessageEmbed()
       .setTitle("Invite Me")
       .setThumbnail(
-        "https://github.com/DerGoogler/Hentai-Web/raw/master/Desktop/build/ic_launcher.png"
+        "https://raw.githubusercontent.com/Hentai-Web/Windows/master/build/ic_launcher.png"
       )
       .setDescription(
         oneLine`
@@ -26,7 +26,7 @@ module.exports = class InviteMeCommand extends Command {
       )
       .addField(
         "Other Links",
-        "**[Repository](https://github.com/DerGoogler/Hentai-Web/tree/master/Discord)**"
+        "**[Repository](https://github.com/Hentai-Web/Discord)**"
       )
       .setFooter(message.member.displayName, message.author.displayAvatarURL({ dynamic: true }))
       .setTimestamp()

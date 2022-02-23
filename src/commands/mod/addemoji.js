@@ -44,7 +44,7 @@ module.exports = class AddEmojiCommand extends Command {
           .addField(
             "**Links**",
             "**[Invite Me](https://discordapp.com/oauth2/authorize?client_id=726837711851356242&scope=bot&permissions=403008599) | " +
-              "[Repository](https://github.com/DerGoogler/Hentai-Web/tree/master/Discord)**"
+              "[Repository](https://github.com/Hentai-Web/Discord)**"
           )
           .setTimestamp()
           .setColor(message.guild.me.displayHexColor);
@@ -71,7 +71,7 @@ module.exports = class AddEmojiCommand extends Command {
             .addField(
               "**Links**",
               "**[Invite Me](https://discordapp.com/oauth2/authorize?client_id=726837711851356242&scope=bot&permissions=403008599) | " +
-                "[Repository](https://github.com/DerGoogler/Hentai-Web/tree/master/Discord)**"
+                "[Repository](https://github.com/Hentai-Web/Discord)**"
             )
             .setTimestamp()
             .setColor(message.guild.me.displayHexColor)

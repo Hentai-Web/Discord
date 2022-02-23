@@ -37,7 +37,7 @@ module.exports = class FeedbackCommand extends Command {
     const embed = new MessageEmbed()
       .setTitle("Feedback")
       .setThumbnail(
-        "https://github.com/DerGoogler/Hentai-Web/raw/master/Desktop/build/ic_launcher.png"
+        "https://raw.githubusercontent.com/Hentai-Web/Windows/master/build/ic_launcher.png"
       )
       .setDescription(oneLine`Successfully sent feedback!`)
       .addField("Member", message.member, true)

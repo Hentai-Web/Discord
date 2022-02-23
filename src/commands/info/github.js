@@ -16,11 +16,11 @@ module.exports = class GitHubCommand extends Command {
     const embed = new MessageEmbed()
       .setTitle("GitHub Link")
       .setThumbnail(
-        "https://github.com/DerGoogler/Hentai-Web/raw/master/Desktop/build/ic_launcher.png"
+        "https://raw.githubusercontent.com/Hentai-Web/Windows/master/build/ic_launcher.png"
       )
       .setDescription(
         oneLine`
-        Click [here](https://github.com/DerGoogler/Hentai-Web/tree/master/Discord) to to visit my GitHub repository!
+        Click [here](https://github.com/Hentai-Web/Discord) to to visit my GitHub repository!
         Please support me by starring ⭐ the repo, and feel free to comment about issues or suggestions!
       `
       )

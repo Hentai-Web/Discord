@@ -22,7 +22,7 @@ module.exports = class UptimeCommand extends Command {
     const embed = new MessageEmbed()
       .setTitle("HentaiWeb's Uptime")
       .setThumbnail(
-        "https://github.com/DerGoogler/Hentai-Web/raw/master/Desktop/build/ic_launcher.png"
+        "https://raw.githubusercontent.com/Hentai-Web/Windows/master/build/ic_launcher.png"
       )
       .setDescription(`\`\`\`prolog\n${days}, ${hours}, ${minutes}, and ${seconds}\`\`\``)
       .addField("Date Launched", date)

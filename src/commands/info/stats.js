@@ -48,7 +48,7 @@ module.exports = class StatsCommand extends Command {
       .addField(
         "Links",
         "**[Invite Me](https://discordapp.com/oauth2/authorize?client_id=726837711851356242&scope=bot&permissions=403008599) | " +
-          "[Repository](https://github.com/DerGoogler/Hentai-Web/tree/master/Discord)**"
+          "[Repository](https://github.com/Hentai-Web/Discord)**"
       )
       .setFooter(message.member.displayName, message.author.displayAvatarURL({ dynamic: true }))
       .setTimestamp()

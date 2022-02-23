@@ -72,7 +72,7 @@ module.exports = (client, message) => {
       const embed = new MessageEmbed()
         .setTitle("Hi, I'm HentaiWeb. Need help?")
         .setThumbnail(
-          "https://raw.githubusercontent.com/sabattle/HentaiWebBot/develop/data/images/HentaiWeb.png"
+          "https://raw.githubusercontent.com/Hentai-Web/Windows/master/build/ic_launcher.png"
         )
         .setDescription(`You can see everything I can do by using the \`${prefix}help\` command.`)
         .addField(

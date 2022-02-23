@@ -39,7 +39,7 @@ module.exports = class HelpCommand extends Command {
       embed // Build specific command help embed
         .setTitle(`Command: \`${command.name}\``)
         .setThumbnail(
-          "https://raw.githubusercontent.com/sabattle/HentaiWebBot/develop/data/images/HentaiWeb.png"
+          "https://raw.githubusercontent.com/Hentai-Web/Windows/master/build/ic_launcher.png"
         )
         .setDescription(command.description)
         .addField("Usage", `\`${prefix}${command.usage}\``, true)
@@ -111,7 +111,7 @@ module.exports = class HelpCommand extends Command {
         )
         .setTimestamp()
         .setImage(
-          "https://raw.githubusercontent.com/sabattle/HentaiWebBot/develop/data/images/HentaiWeb_Title.png"
+          "https://raw.githubusercontent.com/Hentai-Web/Windows/master/build/ic_launcher.png"
         )
         .setColor(message.guild.me.displayHexColor);
 
@@ -127,7 +127,7 @@ module.exports = class HelpCommand extends Command {
       embed.addField(
         "**Links**",
         "**[Invite Me](https://discordapp.com/oauth2/authorize?client_id=726837711851356242&scope=bot&permissions=403008599) | " +
-          "[Repository](https://github.com/DerGoogler/Hentai-Web/tree/master/Discord)**"
+          "[Repository](https://github.com/Hentai-Web/Discord)**"
       );
     }
     message.channel.send(embed);

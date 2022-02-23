@@ -40,12 +40,12 @@ module.exports = class ReportBugCommand extends Command {
     const embed = new MessageEmbed()
       .setTitle("Bug Report")
       .setThumbnail(
-        "https://github.com/DerGoogler/Hentai-Web/raw/master/Desktop/build/ic_launcher.png"
+        "https://raw.githubusercontent.com/Hentai-Web/Windows/master/build/ic_launcher.png"
       )
       .setDescription(
         oneLine`
         Successfully sent bug report!
-        Additionally, feel free to submit an issue on [GitHub](https://github.com/sabattle/Hentai-Web/issues).
+        Additionally, feel free to submit an issue on [GitHub](https://github.com/Hentai-Web/Discord/issues).
       `
       )
       .addField("Member", message.member, true)

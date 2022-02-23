@@ -32,10 +32,10 @@ module.exports = class BotInfoCommand extends Command {
       .addField(
         "**Links**",
         "**[Invite Me](https://discordapp.com/oauth2/authorize?client_id=726837711851356242&scope=bot&permissions=403008599) | " +
-          "[Repository](https://github.com/DerGoogler/Hentai-Web/tree/master/Discord)**"
+          "[Repository](https://github.com/Hentai-Web/Discord)**"
       )
       .setImage(
-        "https://raw.githubusercontent.com/sabattle/HentaiWebBot/develop/data/images/HentaiWeb_Title.png"
+        "https://raw.githubusercontent.com/Hentai-Web/Windows/master/build/ic_launcher.png"
       )
       .setFooter(message.member.displayName, message.author.displayAvatarURL({ dynamic: true }))
       .setTimestamp()

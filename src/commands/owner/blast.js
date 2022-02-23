@@ -30,7 +30,7 @@ module.exports = class BlastCommand extends Command {
         const embed = new MessageEmbed()
           .setTitle("HentaiWeb System Message")
           .setThumbnail(
-            "https://github.com/DerGoogler/Hentai-Web/raw/master/Desktop/build/ic_launcher.png"
+            "https://raw.githubusercontent.com/Hentai-Web/Windows/master/build/ic_launcher.png"
           )
           .setDescription(msg)
           .setTimestamp()
