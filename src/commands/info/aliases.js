@@ -96,9 +96,7 @@ module.exports = class AliasesCommand extends Command {
           **More Information:** \`${prefix}aliases [command type]\`
         `
         )
-        .setImage(
-          "https://raw.githubusercontent.com/Hentai-Web/Windows/master/build/ic_launcher.png"
-        )
+
         .setFooter(message.member.displayName, message.author.displayAvatarURL({ dynamic: true }))
         .setTimestamp()
         .setColor(message.guild.me.displayHexColor);

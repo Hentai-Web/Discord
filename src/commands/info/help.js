@@ -110,9 +110,7 @@ module.exports = class HelpCommand extends Command {
           message.author.displayAvatarURL({ dynamic: true })
         )
         .setTimestamp()
-        .setImage(
-          "https://raw.githubusercontent.com/Hentai-Web/Windows/master/build/ic_launcher.png"
-        )
+
         .setColor(message.guild.me.displayHexColor);
 
       for (const type of Object.values(message.client.types)) {
