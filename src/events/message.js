@@ -71,25 +71,7 @@ module.exports = (client, message) => {
     ) {
       const embed = new MessageEmbed()
         .setTitle("Hi, I'm HentaiWeb. Need help?")
-        .setThumbnail(
-          "https://raw.githubusercontent.com/Hentai-Web/Windows/master/build/ic_launcher.png"
-        )
         .setDescription(`You can see everything I can do by using the \`${prefix}help\` command.`)
-        .addField(
-          "Invite Me",
-          oneLine`
-          You can add me to your server by clicking 
-          [here](https://discordapp.com/oauth2/authorize?client_id=416451977380364288&scope=bot&permissions=403008599)!
-        `
-        )
-        .addField(
-          "Support",
-          oneLine`
-          If you have questions, suggestions, or found a bug, please join the 
-          [HentaiWeb Support Server](https://discord.gg/pnYVdut)!
-        `
-        )
-        .setFooter("DM Nettles#8880 to speak directly with the developer!")
         .setColor(message.guild.me.displayHexColor);
       message.channel.send(embed);
     }
